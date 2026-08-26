@@ -13,3 +13,6 @@ else:
         i = i + 1
     else:
         print("Prime")
+
+# Write a function that returns the square of a number.     
+
