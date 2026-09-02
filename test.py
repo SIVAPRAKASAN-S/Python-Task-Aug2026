@@ -20,7 +20,7 @@
 # while n > 0:
 #     digit = n % 10
 #     reverse = reverse * 10 + digit
-#     n= n // 10 
+#     n= n // 10  
 # if temp == reverse:
 #     print('is number is palindrome')
 # else:
