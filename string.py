@@ -97,18 +97,50 @@
 # index=-1
 # for i in range(str1):
 #     str2 += str[index]
-#     index-=1
-#     print('this is string :',str2)
+# #     index-=1
+# #     print('this is string :',str2)
 
 
 
-str1=input('enter a string:')
-str2='aAeEiIoOuU'
-v,c=0,0
-for i in str2:
-    if i in str1:
-        v+=1
-    else:
-        c+=1
-    print('vowels:',v)
-    print('consonants:',c)
+# str1=input('enter a string:')
+# str2='aAeEiIoOuU'
+# v,c=0,0
+# for i in str2:
+#     if i in str1:
+#         v+=1
+#     else:
+#         c+=1
+#     print('vowels:',v)
+#     print('consonants:',c)
+
+
+
+# mirror image of te string
+
+# str1=input('enter a string:')
+
+# mirror=str1[::-1]
+# print('mirror image of the string:',mirror)
+
+# 3.Write a program to remove all the occurences of a given 
+# character in a string.
+
+
+# str1=input('enter a string:')
+# ch=input('enter a character to remove:')
+# str2=str1.replace(ch,'')
+# print('string after removing all occurrences of',ch,':',str2)
+
+
+# 1. Write a porgram to count the occurances of each word
+# in a given string.
+
+# str1=input('enter any string')
+# count=0
+# result=str1.split()
+# print(result)
+# for word in result:
+#     count+=1
+# print('no.of word in given:',count)
+
+
