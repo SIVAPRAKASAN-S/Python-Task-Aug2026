@@ -144,3 +144,94 @@
 # print('no.of word in given:',count)
 
 
+
+
+# # Python String Programs - All in One
+
+# # Input a string
+# s = input("Enter a string: ")
+
+# # 1. Print the string
+# print("\n1. Original String:")
+# print(s)
+
+# # 2. Find length
+# print("\n2. Length of String:")
+# print(len(s))
+
+# # 3. Count vowels
+# vowels = 0
+
+# for ch in s:
+#     if ch in "aeiouAEIOU":
+#         vowels += 1
+
+# print("\n3. Number of Vowels:")
+# print(vowels)
+
+# # 4. Count consonants
+# consonants = 0
+
+# for ch in s:
+#     if ch.isalpha() and ch not in "aeiouAEIOU":
+#         consonants += 1
+
+# print("\n4. Number of Consonants:")
+# print(consonants)
+
+# # 5. Count uppercase and lowercase
+# uppercase = 0
+# lowercase = 0
+
+# for ch in s:
+#     if ch.isupper():
+#         uppercase += 1
+#     elif ch.islower():
+#         lowercase += 1
+
+# print("\n5. Uppercase Letters:")
+# print(uppercase)
+
+# print("Lowercase Letters:")
+# print(lowercase)
+
+# # 6. Count digits
+# digits = 0
+
+# for ch in s:
+#     if ch.isdigit():
+#         digits += 1
+
+# print("\n6. Number of Digits:")
+# print(digits)
+
+# # 7. Count spaces
+# spaces = 0
+
+# for ch in s:
+#     if ch == " ":
+#         spaces += 1
+
+# print("\n7. Number of Spaces:")
+# print(spaces)
+
+# # 8. Reverse the string
+# reverse = s[::-1]
+
+# print("\n8. Reverse of String:")
+# print(reverse)
+
+# # 9. Check palindrome
+# print("\n9. Palindrome Check:")
+
+# if s == reverse:
+#     print("The string is a Palindrome")
+# else:
+#     print("The string is Not a Palindrome")
+
+# # 10. Convert to uppercase and lowercase
+# print("\n10. Uppercase and Lowercase:")
+
+# print("Uppercase:", s.upper())
+# print("Lowercase:", s.lower())
+
