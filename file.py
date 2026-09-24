@@ -24,7 +24,7 @@ file.close()
 
 
 file = open("student.txt", "r")
-j
+
 data = file.read()
 
 data = file.readline()
